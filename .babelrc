@@ -1,3 +1,7 @@
 {
-  "plugins": ["@babel/plugin-proposal-pipeline-operator"]
+  "presets": [
+    ["@babel/preset-stage-1", {
+      "decoratorsLegacy": true
+    }]
+  ]
 }
