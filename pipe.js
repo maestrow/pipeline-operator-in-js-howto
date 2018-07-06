@@ -1,1 +1,1 @@
-console.log('asdasd' |> (x => x.length))
+'asdasd' |> (x => x.length) |> console.log;

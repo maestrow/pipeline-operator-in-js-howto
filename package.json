@@ -4,7 +4,7 @@
   "description": "",
   "main": "pipe.js",
   "scripts": {
-    "start": "babel pipe.js --out-file output.js && node output.js",
+    "start": "babel pipe.js | node",
     "eslint": "eslint -f json pipe.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

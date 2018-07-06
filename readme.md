@@ -25,8 +25,8 @@ If you want only `|>` operator plugin (1st option), then go to first commit (`gi
 If you want all stage 1 proposals (2nd option), it comes from second commit.
 
     npm i      # install all dependencies
-    npm start  # it runs `pipe.js` (full command see in `package.json`)
+    npm start  # it runs `pipe.js` (`'asdasd' |> (x => x.length) |> console.log;`), full command see in `package.json`.
 
 See `6` in output.
 
-Open `pipe.js` and make sure that linter doesn't report an error.
+Open `pipe.js` in VS Code and make sure that linter doesn't report an error.
