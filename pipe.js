@@ -1,1 +1,1 @@
-'asdasd' |> (x => x.length) |> console.log;
+'asdasd' |> %.length |> console.log(%);
